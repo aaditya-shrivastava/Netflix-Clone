@@ -316,7 +316,7 @@ section.first > div {
 
 .lastContent > div > input {
   color: white;
-  padding: 25px 230px 25px 25px;
+  padding: 17px 230px 17px 25px;
   font-size: 12px;
   background-color: rgb(23, 23, 23, 0.7);
   border: 1px solid rgba(188, 188, 188, 0.5);
@@ -326,10 +326,12 @@ section.first > div {
 .lastbtn {
   margin-left: 1vw;
   font-weight: bold;
-  font-size: 10px;
-  padding: 7px 10px;
+  font-size: 15px;
+  padding: 10px 10px;
   border: 1px solid rgb(212, 0, 0);
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 strong {
@@ -363,7 +365,6 @@ footer .Questions {
   flex-direction: column;
   gap: 14px;
 }
-/* the last button for lang selection */
 #language {
   background-color: rgb(255, 255, 255, 0.042);
   border-radius: 5px;
@@ -387,7 +388,6 @@ footer .Questions {
   background: url("language.svg") center / contain no-repeat;
 }
 
-/* nav language btn*/
 #navLang {
   background-color: rgb(255, 255, 255, 0.042);
   border-radius: 5px;
@@ -768,7 +768,6 @@ footer .Questions {
     flex-direction: column;
     gap: 14px;
   }
-  /* the last button for lang selection */
   #language {
     background-color: rgb(255, 255, 255, 0.042);
     border-radius: 5px;
@@ -792,7 +791,6 @@ footer .Questions {
     background: url("language.svg") center / contain no-repeat;
   }
 
-  /* nav language btn*/
   #navLang {
     background-color: rgb(255, 255, 255, 0.042);
     border-radius: 5px;
